@@ -1,7 +1,7 @@
 How to run? 
 
-1) Download the zip file
-2) Unzip file 
+1) Download the zip folder
+2) Unzip folder
 3) Go to JurassicPark2D-master > JurassicPark 
 4) run jurassicpark.bat
 
