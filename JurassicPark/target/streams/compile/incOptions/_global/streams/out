@@ -1,0 +1,65 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = C:\Users\bryan\Documents\Project_20043253\JurassicPark\target\scala-2.12\classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GuideController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Trex.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BattlegroundController$Controller$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Triceratops.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BattlegroundController$Controller$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Herbivore.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RootLayoutController$Controller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Trex$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Sarcosuchus.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MapController$Controller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Heal.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Score.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BattlegroundController$Controller$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DinoInfoController$Controller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Score$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CommonTypeProperties.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Triceratops$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DinoInfoController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Spinosaurus$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StartMenuController$Controller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$$anon$3$$anon$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SpecialAttack.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Attack.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Sarcosuchus$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Pterosaur.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RootLayoutController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CharacterController$Controller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ScoreboardController$Controller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Enemy.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MainMenuController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LoginController$Controller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$$anon$1$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Skill.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Pachycephalosaurus.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LoginController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Enemy$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BattlegroundController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Amphibian.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StartMenuController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BattlegroundController$Controller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ScoreboardController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Dinosaur$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Spinosaurus.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Pteranodon$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Player.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Block.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CharacterController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MainMenuController$Controller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Dinosaur.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Player$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MapController.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Pachycephalosaurus$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Pteranodon.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Carnivore.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GuideController$Controller.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: C:\Users\bryan\Documents\Project_20043253\JurassicPark\target\scala-2.12\classes.bak[0m

@@ -1,0 +1,14 @@
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\bryan\Documents\Project_20043253\JurassicPark\src\main\scala\prg2104\jurassic\view\BattlegroundController.scala:327:9: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: None, Some((x: scalafx.scene.control.ButtonType forSome x not in (ButtonTypeOne, ButtonTypeTwo)))[0m
+[0m[[0m[33mwarn[0m] [0m[0m        result match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\bryan\Documents\Project_20043253\JurassicPark\src\main\scala\prg2104\jurassic\view\BattlegroundController.scala:352:9: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: None, Some((x: scalafx.scene.control.ButtonType forSome x not in (ButtonTypeOne, ButtonTypeTwo)))[0m
+[0m[[0m[33mwarn[0m] [0m[0m        result match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\bryan\Documents\Project_20043253\JurassicPark\src\main\scala\prg2104\jurassic\view\BattlegroundController.scala:421:9: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: None, Some((x: scalafx.scene.control.ButtonType forSome x not in (ButtonTypeOne, ButtonTypeTwo)))[0m
+[0m[[0m[33mwarn[0m] [0m[0m        result match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone deprecation (since 8.0.60-R10); re-run with -deprecation for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m

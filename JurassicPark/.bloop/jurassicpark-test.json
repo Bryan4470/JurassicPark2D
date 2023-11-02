@@ -1,0 +1,224 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "jurassicpark-test",
+        "directory": "C:\\Users\\bryan\\JurassicPark",
+        "workspaceDir": "C:\\Users\\bryan\\JurassicPark",
+        "sources": [
+            "C:\\Users\\bryan\\JurassicPark\\src\\test\\scala",
+            "C:\\Users\\bryan\\JurassicPark\\src\\test\\scala-2.12",
+            "C:\\Users\\bryan\\JurassicPark\\src\\test\\scala-2",
+            "C:\\Users\\bryan\\JurassicPark\\src\\test\\java",
+            "C:\\Users\\bryan\\JurassicPark\\target\\scala-2.12\\src_managed\\test"
+        ],
+        "dependencies": [
+            "jurassicpark"
+        ],
+        "classpath": [
+            "C:\\Users\\bryan\\JurassicPark\\.bloop\\jurassicpark\\scala-2.12\\classes",
+            "C:\\Users\\bryan\\.sbt\\boot\\scala-2.12.15\\lib\\scala-library.jar",
+            "C:\\Users\\bryan\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalafx\\scalafx_2.12\\12.0.2-R18\\scalafx_2.12-12.0.2-R18.jar",
+            "C:\\Users\\bryan\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalafx\\scalafxml-core-sfx8_2.12\\0.5\\scalafxml-core-sfx8_2.12-0.5.jar",
+            "C:\\Users\\bryan\\.sbt\\boot\\scala-2.12.15\\lib\\scala-reflect.jar",
+            "C:\\Users\\bryan\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalafx\\scalafxml-core-macros-sfx8_2.12\\0.5\\scalafxml-core-macros-sfx8_2.12-0.5.jar"
+        ],
+        "out": "C:\\Users\\bryan\\JurassicPark\\.bloop\\jurassicpark",
+        "classesDir": "C:\\Users\\bryan\\JurassicPark\\.bloop\\jurassicpark\\scala-2.12\\test-classes",
+        "resources": [
+            "C:\\Users\\bryan\\JurassicPark\\src\\test\\resources",
+            "C:\\Users\\bryan\\JurassicPark\\target\\scala-2.12\\resource_managed\\test"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.15",
+            "options": [
+                "-Xplugin:C:\\Users\\bryan\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalamacros\\paradise_2.12.15\\2.1.1\\paradise_2.12.15-2.1.1.jar"
+            ],
+            "jars": [
+                "C:\\Users\\bryan\\.sbt\\boot\\scala-2.12.15\\lib\\scala-library.jar",
+                "C:\\Users\\bryan\\.sbt\\boot\\scala-2.12.15\\lib\\scala-compiler.jar",
+                "C:\\Users\\bryan\\.sbt\\boot\\scala-2.12.15\\lib\\scala-reflect.jar",
+                "C:\\Users\\bryan\\.sbt\\boot\\scala-2.12.15\\lib\\scala-xml_2.12-1.0.6.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "C:\\Program Files\\Java\\jdk-16.0.2",
+                "options": [
+                    "-Duser.dir=C:\\Users\\bryan\\JurassicPark"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.15",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\bryan\\.sbt\\boot\\scala-2.12.15\\lib\\scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\bryan\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.15\\scala-library-2.12.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalafx",
+                    "name": "scalafx_2.12",
+                    "version": "12.0.2-R18",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalafx_2.12",
+                            "path": "C:\\Users\\bryan\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalafx\\scalafx_2.12\\12.0.2-R18\\scalafx_2.12-12.0.2-R18.jar"
+                        },
+                        {
+                            "name": "scalafx_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\bryan\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalafx\\scalafx_2.12\\12.0.2-R18\\scalafx_2.12-12.0.2-R18-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalafx",
+                    "name": "scalafxml-core-sfx8_2.12",
+                    "version": "0.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalafxml-core-sfx8_2.12",
+                            "path": "C:\\Users\\bryan\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalafx\\scalafxml-core-sfx8_2.12\\0.5\\scalafxml-core-sfx8_2.12-0.5.jar"
+                        },
+                        {
+                            "name": "scalafxml-core-sfx8_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\bryan\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalafx\\scalafxml-core-sfx8_2.12\\0.5\\scalafxml-core-sfx8_2.12-0.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.12.15",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "C:\\Users\\bryan\\.sbt\\boot\\scala-2.12.15\\lib\\scala-reflect.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\bryan\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.12.15\\scala-reflect-2.12.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalafx",
+                    "name": "scalafxml-core-macros-sfx8_2.12",
+                    "version": "0.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalafxml-core-macros-sfx8_2.12",
+                            "path": "C:\\Users\\bryan\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalafx\\scalafxml-core-macros-sfx8_2.12\\0.5\\scalafxml-core-macros-sfx8_2.12-0.5.jar"
+                        },
+                        {
+                            "name": "scalafxml-core-macros-sfx8_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\bryan\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalafx\\scalafxml-core-macros-sfx8_2.12\\0.5\\scalafxml-core-macros-sfx8_2.12-0.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.15",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\bryan\\.sbt\\boot\\scala-2.12.15\\lib\\scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\bryan\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.15\\scala-library-2.12.15-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}

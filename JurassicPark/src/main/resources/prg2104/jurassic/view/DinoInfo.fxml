@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="648.0" prefWidth="972.0" styleClass="dinoInfoModified" stylesheets="@SetBackground.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="prg2104.jurassic.DinoInfoController">
+   <children>
+      <Button layoutX="29.0" layoutY="36.0" mnemonicParsing="false" onAction="#handleBack" prefHeight="38.0" prefWidth="63.0" text="Back" />
+      <Button fx:id="upgradeBtn" layoutX="735.0" layoutY="511.0" mnemonicParsing="false" onAction="#handleUpgrade" prefHeight="90.0" prefWidth="160.0" text="Upgrade" />
+      <Label fx:id="nameLabel" alignment="CENTER" layoutX="85.0" layoutY="29.0" prefHeight="66.0" prefWidth="732.0" text="Dinosaur name" textFill="#00bef0">
+         <font>
+            <Font name="Rockwell Bold" size="55.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="dinoImage" fitHeight="367.0" fitWidth="575.0" layoutX="160.0" layoutY="185.0" pickOnBounds="true" preserveRatio="true" />
+      <GridPane layoutX="738.0" layoutY="244.0" prefHeight="249.0" prefWidth="253.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="170.0" minWidth="10.0" prefWidth="170.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="229.0" minWidth="10.0" prefWidth="83.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label fx:id="healthLabel" prefHeight="29.0" prefWidth="101.0" textFill="RED" GridPane.columnIndex="1">
+               <font>
+                  <Font name="Impact" size="24.0" />
+               </font>
+            </Label>
+            <Label text="Health:" textFill="RED">
+               <font>
+                  <Font name="Impact" size="24.0" />
+               </font>
+            </Label>
+            <Label text="Attack Damage:" textFill="RED" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Impact" size="24.0" />
+               </font>
+            </Label>
+            <Label text="Heal:" textFill="RED" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Impact" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="damageLabel" prefHeight="22.0" prefWidth="96.0" textFill="RED" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Impact" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="healLabel" prefHeight="22.0" prefWidth="111.0" textFill="RED" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Impact" size="24.0" />
+               </font>
+            </Label>
+            <Label prefHeight="22.0" prefWidth="111.0" textFill="#f80000" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Impact" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="shieldLabel" textFill="RED" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Impact" size="24.0" />
+               </font>
+            </Label>
+            <Label text="Shield:" textFill="RED" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Impact" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </GridPane>
+      <Label layoutX="682.0" layoutY="116.0" prefHeight="56.0" prefWidth="176.0" text="LEVEL:" textFill="#00f05f">
+         <font>
+            <Font name="Arial Black" size="34.0" />
+         </font>
+      </Label>
+      <Label fx:id="levelLabel" layoutX="824.0" layoutY="119.0" text="level" textFill="#00ff5a">
+         <font>
+            <Font name="Arial Black" size="34.0" />
+         </font>
+      </Label>
+      <Label fx:id="nameLabel1" alignment="CENTER" layoutX="73.0" layoutY="104.0" prefHeight="56.0" prefWidth="146.0" text="TYPE:" textFill="#00f05f">
+         <font>
+            <Font name="Rockwell Bold" size="35.0" />
+         </font>
+      </Label>
+      <Text fx:id="dinoTypeText" fill="#00f05f" layoutX="219.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="268.5029296875">
+         <font>
+            <Font name="Rockwell Bold" size="35.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

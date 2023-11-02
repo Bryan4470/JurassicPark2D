@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="648.0" prefWidth="971.0" styleClass="characterBg" stylesheets="@SetBackground.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="prg2104.jurassic.CharacterController">
+   <children>
+      <Button layoutX="60.0" layoutY="281.0" mnemonicParsing="false" onAction="#handleDino1" text="Choose" />
+      <Button layoutX="376.0" layoutY="281.0" mnemonicParsing="false" onAction="#handleDino2" text="Choose" />
+      <Button layoutX="698.0" layoutY="281.0" mnemonicParsing="false" onAction="#handleDino3" text="Choose" />
+      <Button layoutX="60.0" layoutY="519.0" mnemonicParsing="false" onAction="#handleDino4" text="Choose" />
+      <Button layoutX="376.0" layoutY="519.0" mnemonicParsing="false" onAction="#handleDino5" text="Choose" />
+      <Button layoutX="715.0" layoutY="519.0" mnemonicParsing="false" onAction="#handleDino6" text="Choose" />
+      <Label layoutX="300.0" layoutY="30.0" prefHeight="74.0" prefWidth="415.0" text="Choose Your Dinosaur" textFill="#f50000">
+         <font>
+            <Font name="Rockwell Bold Italic" size="36.0" />
+         </font></Label>
+      <Button layoutX="29.0" layoutY="36.0" mnemonicParsing="false" onAction="#handleBack" prefHeight="38.0" prefWidth="63.0" text="Back" />
+      <ImageView fx:id="dino1Img" fitHeight="180.0" fitWidth="200.0" layoutX="60.0" layoutY="94.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="dino2Img" fitHeight="180.0" fitWidth="200.0" layoutX="376.0" layoutY="94.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="dino3Img" fitHeight="180.0" fitWidth="200.0" layoutX="709.0" layoutY="94.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="dino4Img" fitHeight="180.0" fitWidth="200.0" layoutX="52.0" layoutY="324.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="dino5Img" fitHeight="180.0" fitWidth="200.0" layoutX="376.0" layoutY="324.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="dino6Img" fitHeight="180.0" fitWidth="200.0" layoutX="715.0" layoutY="331.0" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="136.0" layoutY="281.0" mnemonicParsing="false" onAction="#handleInfo1" text="Info and upgrade" />
+      <Button layoutX="451.0" layoutY="281.0" mnemonicParsing="false" onAction="#handleInfo2" text="Info and upgrade" />
+      <Button layoutX="774.0" layoutY="281.0" mnemonicParsing="false" onAction="#handleInfo3" text="Info and upgrade" />
+      <Button layoutX="136.0" layoutY="519.0" mnemonicParsing="false" onAction="#handleInfo4" text="Info and upgrade" />
+      <Button layoutX="458.0" layoutY="519.0" mnemonicParsing="false" onAction="#handleInfo5" text="Info and upgrade" />
+      <Button layoutX="789.0" layoutY="519.0" mnemonicParsing="false" onAction="#handleInfo6" text="Info and upgrade" />
+   </children>
+</AnchorPane>

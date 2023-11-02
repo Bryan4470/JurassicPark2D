@@ -1,0 +1,33 @@
+.welcomeBg{
+    -fx-background-image: url('images/WelcomeImage.jpg');
+    -fx-background-size: 100% 100%;
+}
+
+.mainMenuBg{
+    -fx-background-image: url('images/mainmenubg.jpg');
+    -fx-background-size: 100% 100%;
+}
+
+.mapBg{
+    -fx-background-image: url('images/JurassicMap.jpg');
+    -fx-background-size: 100% 100%;
+}
+
+.dinoInfoModified{
+    -fx-background-image: url('images/dinoinfomodified.png');
+    -fx-background-size: 100% 100%;
+}
+.characterBg{
+    -fx-background-image: url('images/characterbg.jpg');
+    -fx-background-size: 100% 100%;
+}
+.guideBg{
+    -fx-background-image: url('images/guidebackground.png');
+    -fx-background-size: 100% 100%;
+}
+.scoreboardBg{
+    -fx-background-image: url('images/scoreboardbg.png');
+    -fx-background-size: 100% 100%;
+}
+
+

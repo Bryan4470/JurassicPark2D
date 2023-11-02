@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="battleBackground" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="648.0" prefWidth="972.0" stylesheets="@SetBackground.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="prg2104.jurassic.BattlegroundController">
+   <children>
+      <ImageView fx:id="backgroundImage" fitHeight="655.0" fitWidth="982.0" layoutX="-5.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="playerImage" fitHeight="300.0" fitWidth="330.0" layoutX="74.0" layoutY="167.0" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="13.0" layoutY="546.0" mnemonicParsing="false" onAction="#handleAttack" prefHeight="88.0" prefWidth="226.0" style="-fx-background-color: #f14343;" text="Attack" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font></Button>
+      <Button layoutX="249.0" layoutY="546.0" mnemonicParsing="false" onAction="#handleBlock" prefHeight="88.0" prefWidth="226.0" style="-fx-background-color: #40aed6;" text="Block" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font></Button>
+      <Button layoutX="483.0" layoutY="546.0" mnemonicParsing="false" onAction="#handleHeal" prefHeight="88.0" prefWidth="226.0" style="-fx-background-color: #2ebb24;" text="Heal" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font></Button>
+      <ImageView fx:id="enemyImage" fitHeight="300.0" fitWidth="330.0" layoutX="566.0" layoutY="167.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true" />
+      <ProgressBar fx:id="playerHealthBar" layoutX="71.0" layoutY="58.0" prefHeight="45.0" prefWidth="300.0" progress="1.0" />
+      <ProgressBar fx:id="enemyHealthBar" layoutX="596.0" layoutY="58.0" prefHeight="45.0" prefWidth="300.0" progress="1.0" />
+      <ProgressBar fx:id="enemyShieldBar" layoutX="596.0" layoutY="111.0" prefHeight="23.0" prefWidth="300.0" progress="0.0" />
+      <ProgressBar fx:id="playerShieldBar" layoutX="71.0" layoutY="111.0" prefHeight="12.0" prefWidth="300.0" progress="0.0" />
+      <Button layoutX="722.0" layoutY="546.0" mnemonicParsing="false" onAction="#handleSpecialAttack" prefHeight="88.0" prefWidth="226.0" style="-fx-background-color: #c147ff;" text="Special Attack" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font></Button>
+      <Label fx:id="playerSkillLabel" layoutX="35.0" layoutY="470.0" textFill="RED">
+         <font>
+            <Font name="Rockwell Bold" size="18.0" />
+         </font></Label>
+      <Label fx:id="enemySkillLabel" layoutX="509.0" layoutY="468.0" prefHeight="27.0" prefWidth="456.0" textFill="RED">
+         <font>
+            <Font name="Rockwell Bold" size="18.0" />
+         </font></Label>
+      <Label fx:id="playerSkillLabel2" layoutX="38.0" layoutY="501.0" textFill="RED">
+         <font>
+            <Font name="Rockwell Bold" size="18.0" />
+         </font></Label>
+      <Label fx:id="enemySkillLabel2" layoutX="506.0" layoutY="501.0" textFill="RED">
+         <font>
+            <Font name="Rockwell Bold" size="18.0" />
+         </font></Label>
+      <Label fx:id="playerSkillLabel3" layoutX="334.0" layoutY="333.0" prefHeight="35.0" prefWidth="226.0" textFill="#f50000">
+         <font>
+            <Font name="Serif Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="enemySkillLabel3" layoutX="506.0" layoutY="375.0" prefHeight="35.0" prefWidth="216.0" textFill="RED">
+         <font>
+            <Font name="Serif Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleBack" style="-fx-background-color: #ff4646;" text="Exit" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="14.0" layoutY="112.0" text="Shield" textFill="#15ff00">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="907.0" layoutY="112.0" text="Shield" textFill="#ff4646">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="70.0" text="Health" textFill="#11ff00">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="906.0" layoutY="70.0" text="Health" textFill="#ff4646">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="85.0" layoutY="19.0" text="You" textFill="#11ff00">
+         <font>
+            <Font name="Rockwell Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="606.0" layoutY="19.0" text="Enemy" textFill="#f24343">
+         <font>
+            <Font name="Rockwell Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="levelLabel" layoutX="403.0" layoutY="19.0" prefHeight="43.0" prefWidth="160.0" text="LEVEL" textFill="#0038ff">
+         <font>
+            <Font name="Rockwell Bold" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
